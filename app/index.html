@@ -1,15 +1,18 @@
 <html ng-app='moreFansApp'>
     <head>
     </head>
-    <body>
-        <div class='main' ng-controller='MainController'>
+    <body ng-controller='MainController'>
+        <div class='main' >
             <h1>{{team.name}}</h1>
             <div class='team'></div>
-            <div class='vs true'></div>
+            <div ng-class='fansVsMascot()'></div>
             <div class='mascot'></div>
         </div>
         <div class='breakdown'>
-          <p>There are {{mascotFacts.number}}</p>
+          <p>There are {{team.mascotFacts.number}} {{team.mascot}} in the world compared to {{team.facebookFans}} {{team.mascot}} fans</p>
+        </div>
+        <div class='next'>
+            <a>Next team</a>
         </div>
         <footer>Made by @elkirkmo | {{contribute.link}} | Based on this reddit post</footer>
         <script src="scripts/angular/angular.js"></script>
