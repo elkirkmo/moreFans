@@ -1,0 +1,18 @@
+<html ng-app='moreFansApp'>
+    <head>
+    </head>
+    <body>
+        <div class='main' ng-controller='MainController'>
+            <h1>{{team.name}}</h1>
+            <div class='team'></div>
+            <div class='vs true'></div>
+            <div class='mascot'></div>
+        </div>
+        <div class='breakdown'>
+          <p>There are {{mascotFacts.number}}</p>
+        </div>
+        <footer>Made by @elkirkmo | {{contribute.link}} | Based on this reddit post</footer>
+        <script src="scripts/angular/angular.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>

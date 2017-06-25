@@ -4,8 +4,28 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "karma start karma.conf.coffee"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "browsersync": "0.0.1-security",
+    "coffee-script": "^1.12.6",
+    "gulp": "^3.9.1",
+    "jasmine-core": "^2.6.4",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coffee-preprocessor": "^1.0.1",
+    "karma-jasmine": "^1.1.0",
+    "less": "^2.7.2",
+    "nodemon": "^1.11.0",
+    "yarn": "^0.24.5"
+  },
+  "dependencies": {
+    "angular": "^1.6.4",
+    "body-parser": "^1.17.2",
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.0"
+  }
 }
