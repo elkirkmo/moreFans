@@ -355,7 +355,7 @@
     "name": "Kansas City",
     "vs": true
     },    { 
-   "className": "las",
+   "className": "oak",
    "fanCount": "10,099,869",
      "id": "32",
     "mascot": "Raiders",
@@ -363,7 +363,7 @@
         "number": "0"
         },
     "mythical": false,
-    "name": "Las Vegas",
+    "name": "Oakland",
     "vs": true
     } 
 ]
