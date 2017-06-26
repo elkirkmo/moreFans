@@ -7,6 +7,10 @@ module.exports = (config) ->
     # base path that will be used to resolve all patterns (eg. files, exclude)
     basePath: './'
 
+    #client
+    client: {
+      captureConsole: true,
+    }
 
     # frameworks to use
     # available frameworks: https://npmjs.org/browse/keyword/karma-adapter
@@ -14,10 +18,13 @@ module.exports = (config) ->
 
 
     # list of files / patterns to load in the browser
-    files: [
-      '*.coffee',
+    files: [      
+      'lib/angular.min.js',
+      'lib/angular-mocks.js',
       'tests/*.spec.coffee',
-      'tests/*.coffee'
+      'tests/*.coffee',
+      'app/app.js',
+
     ]
 
 

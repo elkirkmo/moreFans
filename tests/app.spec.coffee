@@ -1,9 +1,22 @@
 describe 'MainController', () -> 
  beforeEach module 'moreFansApp'
+ scope = null
+ ctrl = null
+ beforeEach inject(($controller) ->
+    scope = {}
+    ctrl = $controller 'MainController', {$scope: scope}
+    return
+  )
+ describe 'Current Count', () ->
+  it 'should start at 1', () ->
+    expect(scope.currentCount).toEqual(1)
 
- it 'should have a team name', inject(($controller) ->
-   scope = {}
-   ctrl = $controller 'MainController', {$scope: scope}
+ describe 'clickUp', () ->
+  it 'should increase current count by 1', () ->
+   scope.clickUp()
+   expect(scope.currentCount).toEqual(2)
 
-   expect scope.team.name.length.notToBe(0)
- )
+ describe 'clickDown', () ->
+  it 'should decrease current count by 1', () ->
+   scope.clickDown()
+   expect(scope.currentCount).toEqual(32)

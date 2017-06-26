@@ -36,7 +36,7 @@ footer {
 }
 .nyg {
   background-color: blue;
-  color: white;
+  color: #ffffff;
 }
 .was {
   background-color: maroon;
@@ -64,7 +64,7 @@ footer {
 }
 .az {
   background-color: red;
-  color: white;
+  color: #ffffff;
 }
 .lar {
   background-color: navy;
@@ -100,7 +100,7 @@ footer {
 }
 .nyj {
   background-color: green;
-  color: white;
+  color: #ffffff;
 }
 .ne {
   background-color: navy;
@@ -108,7 +108,7 @@ footer {
 }
 .ind {
   background-color: blue;
-  color: white;
+  color: #ffffff;
 }
 .jax {
   background-color: teal;
@@ -135,6 +135,6 @@ footer {
   color: yellow;
 }
 .oak {
-  background-color: black;
-  color: silver;
+  background-color: #000000;
+  color: #A5ACAF;
 }
