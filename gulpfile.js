@@ -26,3 +26,7 @@ gulp.task('less', function(){
            }))
            .pipe(gulp.dest('./app'));
 });
+
+gulp.task('watch', function() {
+    gulp.watch('./app', ['less']);
+})

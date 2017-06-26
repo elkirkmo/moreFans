@@ -1,16 +1,10 @@
 var moreFansApp = angular.module('moreFansApp',[]);
 
-moreFansApp.controller('MainController', function MainController($scope){
-  $scope.team = {
-          className: 'nyj',
-          name: 'New York',
-          mascot: 'Jets',
-          mascotFacts: {
-            number: 20000,
-          },
-          vs: true,
-
-      }
+moreFansApp.controller('MainController', function MainController($scope, $http){
+    $http.get('./data/nfl.json')
+        .then(function(res){
+            $scope.teams = res.data; 
+        });
    $scope.fansVsMascots = function(){
        return team.vs ? 'win' : 'lose';
    };
