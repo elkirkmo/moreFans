@@ -12,6 +12,7 @@
     "browsersync": "0.0.1-security",
     "coffee-script": "^1.12.6",
     "gulp": "^3.9.1",
+    "gulp-less": "^3.3.2",
     "gulp-nodemon": "^2.2.1",
     "jasmine-core": "^2.6.4",
     "karma": "^1.7.0",
