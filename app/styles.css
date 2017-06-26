@@ -1,15 +1,140 @@
+body {
+  margin: 0;
+}
 .main {
   width: 100%;
+  height: auto;
+  padding: 10%;
 }
 footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
 }
-.nyj {
+.chi {
+  background-color: navy;
+  color: orange;
+}
+.min {
+  background-color: purple;
+  color: yellow;
+}
+.det {
+  background-color: skyblue;
+  color: gray;
+}
+.gb {
   background-color: green;
+  color: goldenrod;
+}
+.dal {
+  background-color: navy;
+  color: silver;
+}
+.phi {
+  background-color: forestgreen;
   color: white;
 }
 .nyg {
   background-color: blue;
   color: white;
+}
+.was {
+  background-color: maroon;
+  color: goldenrod;
+}
+.tb {
+  background-color: crimson;
+  color: darkgray;
+}
+.atl {
+  background-color: black;
+  color: red;
+}
+.car {
+  background-color: teal;
+  color: black;
+}
+.nola {
+  background-color: black;
+  color: gold;
+}
+.sf {
+  background-color: red;
+  color: gold;
+}
+.az {
+  background-color: red;
+  color: white;
+}
+.lar {
+  background-color: navy;
+  color: goldenrod;
+}
+.sea {
+  background-color: forestgreen;
+  color: lightblue;
+}
+.cin {
+  background-color: orange;
+  color: black;
+}
+.cle {
+  background-color: orange;
+  color: brown;
+}
+.bal {
+  background-color: purple;
+  color: black;
+}
+.pit {
+  background-color: yellow;
+  color: black;
+}
+.buf {
+  background-color: red;
+  color: blue;
+}
+.mia {
+  background-color: aqua;
+  color: orange;
+}
+.nyj {
+  background-color: green;
+  color: white;
+}
+.ne {
+  background-color: navy;
+  color: red;
+}
+.ind {
+  background-color: blue;
+  color: white;
+}
+.jax {
+  background-color: teal;
+  color: gold;
+}
+.hou {
+  background-color: red;
+  color: navy;
+}
+.ten {
+  background-color: lightblue;
+  color: navy;
+}
+.den {
+  background-color: navy;
+  color: orange;
+}
+.lac {
+  background-color: lightblue;
+  color: gold;
+}
+.kc {
+  background-color: red;
+  color: yellow;
+}
+.las {
+  background-color: black;
+  color: silver;
 }

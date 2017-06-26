@@ -2,6 +2,7 @@
    {
    "className": "chi",
    "fanCount": "12,092,476",
+   "id": "1",
     "mascot": "Bears",
     "mascotFacts": {
         "number": "1,148,364"
@@ -13,6 +14,7 @@
     {
     "className": "min",
     "fanCount": "5,642,181",
+   "id": "2",
     "mascot": "Vikings",
     "mascotFacts": {
         "number": 0
@@ -23,6 +25,7 @@
     },    {
     "className": "det",
     "fanCount": "5,642,181",
+   "id": "3",
     "mascot": "Lions",
     "mascotFacts": {
         "number": "20,000"
@@ -34,6 +37,7 @@
     {
    "className": "gb",
    "fanCount": "16,024,215",
+   "id": "4",
     "mascot": "Packers",
     "mascotFacts": {
         "number": "148,100"
@@ -44,6 +48,7 @@
     },    { 
    "className": "dal",
    "fanCount": "25,758,315",
+   "id": "5",
     "mascot": "Cowboys",
     "mascotFacts": {
         "number": "9,730"
@@ -54,6 +59,7 @@
     }, {
    "className": "phi",
    "fanCount": "8,888,974",
+   "id": "6",
     "mascot": "Eagles",
     "mascotFacts": {
         "number": "6,000,000"
@@ -65,6 +71,7 @@
     {
     "className": "nyg",
     "fanCount": "11,690,931",
+   "id": "7",
     "mascot": "Giants",
     "mascotFacts": {
         "number": 0
@@ -75,6 +82,7 @@
     },    {
     "className": "was",
     "fanCount": "0",
+   "id": "8",
     "mascot": "nope",
     "mascotFacts": {
         "number": "nope"
@@ -86,6 +94,7 @@
     {
    "className": "tb",
    "fanCount": "2,779,276",
+   "id": "9",
     "mascot": "Buccaneers",
     "mascotFacts": {
         "number": "0"
@@ -96,6 +105,7 @@
     },    { 
    "className": "atl",
    "fanCount": "6,009,492",
+   "id": "10",
     "mascot": "Falcons",
     "mascotFacts": {
         "number": "7,000,000"
@@ -106,6 +116,7 @@
     }, {
    "className": "car",
    "fanCount": "7,034,101",
+     "id": "11",
     "mascot": "Panthers",
     "mascotFacts": {
         "number": "294,890"
@@ -117,6 +128,7 @@
     {
     "className": "nola",
     "fanCount": "11,930,352",
+      "id": "12",
     "mascot": "Saints",
     "mascotFacts": {
         "number": "10,000"
@@ -127,6 +139,7 @@
     },    {
     "className": "sf",
     "fanCount": "12,383,284",
+      "id": "13",
     "mascot": "49ers",
     "mascotFacts": {
         "number": "0"
@@ -138,6 +151,7 @@
     {
    "className": "az",
    "fanCount": "4,279,156",
+      "id": "14",
     "mascot": "Cardinals",
     "mascotFacts": {
         "number": "120,000,000"
@@ -148,6 +162,7 @@
     },    { 
    "className": "lar",
    "fanCount": "2,327,583",
+      "id": "15",
     "mascot": "Rams",
     "mascotFacts": {
         "number": "1,000,000,000"
@@ -159,6 +174,7 @@
    {
    "className": "sea",
    "fanCount": "11,993,609",
+     "id": "16",
     "mascot": "Seahawks",
     "mascotFacts": {
         "number": "100,000"
@@ -170,6 +186,7 @@
     {
     "className": "cin",
     "fanCount": "3,517,293",
+      "id": "17",
     "mascot": "Bengals",
     "mascotFacts": {
         "number": "2,500"
@@ -180,6 +197,7 @@
     },    {
     "className": "cle",
     "fanCount": "3,738,293",
+      "id": "18",
     "mascot": "Browns",
     "mascotFacts": {
         "number": "1,552,500"
@@ -191,6 +209,7 @@
     {
    "className": "bal",
    "fanCount": "6,927,791",
+      "id": "19",
     "mascot": "Ravens",
     "mascotFacts": {
         "number": "20,000,000"
@@ -201,6 +220,7 @@
     },    { 
    "className": "pit",
    "fanCount": "19,179.380",
+      "id": "20",
     "mascot": "Steelers",
     "mascotFacts": {
         "number": "87,000"
@@ -211,6 +231,7 @@
     }, {
    "className": "buf",
    "fanCount": "2,533,838",
+      "id": "21",
     "mascot": "Bills",
     "mascotFacts": {
         "number": "1"
@@ -222,16 +243,18 @@
     {
     "className": "mia",
     "fanCount": "6,637,669",
+      "id": "22",
     "mascot": "Dolphins",
     "mascotFacts": {
         "number": "7,000,000"
         },
     "mythical": false,
-    "name": "Miama",
+    "name": "Miami",
     "vs": false
     },    {
     "className": "nyj",
     "fanCount": "5,824,758",
+      "id": "23",
     "mascot": "Jets",
     "mascotFacts": {
         "number": "20,000"
@@ -243,6 +266,7 @@
     {
    "className": "ne",
    "fanCount": "20,653,722",
+      "id": "24",
     "mascot": "Patriots",
     "mascotFacts": {
         "number": "180,000,000"
@@ -253,6 +277,7 @@
     },    { 
    "className": "ind",
    "fanCount": "6.689,254",
+    "id": "25",
     "mascot": "Colts",
     "mascotFacts": {
         "number": "6,628,571"
@@ -263,6 +288,7 @@
     }, {
    "className": "jax",
    "fanCount": "1,748,475",
+     "id": "26",
     "mascot": "Jaguars",
     "mascotFacts": {
         "number": "15,000"
@@ -274,6 +300,7 @@
     {
     "className": "hou",
     "fanCount": "6,484,945",
+     "id": "27",
     "mascot": "Texans",
     "mascotFacts": {
         "number": "27,470,000"
@@ -284,6 +311,7 @@
     },    {
     "className": "ten",
     "fanCount": "2,737,981",
+     "id": "28",
     "mascot": "Titans",
     "mascotFacts": {
         "number": "26"
@@ -295,6 +323,7 @@
     {
    "className": "den",
    "fanCount": "13,082,453",
+    "id": "29",
     "mascot": "Broncos",
     "mascotFacts": {
         "number": "650,000"
@@ -305,6 +334,7 @@
     },    { 
    "className": "lac",
    "fanCount": "4,700,430",
+     "id": "30",
     "mascot": "Chargers",
     "mascotFacts": {
         "number": "1,000,000,000"
@@ -316,6 +346,7 @@
     {
    "className": "kc",
    "fanCount": "4,568,973",
+     "id": "31",
     "mascot": "Chiefs",
     "mascotFacts": {
         "number": "?"
@@ -326,6 +357,7 @@
     },    { 
    "className": "las",
    "fanCount": "10,099,869",
+     "id": "32",
     "mascot": "Raiders",
     "mascotFacts": {
         "number": "0"

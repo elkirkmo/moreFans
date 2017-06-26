@@ -5,9 +5,17 @@ moreFansApp.controller('MainController', function MainController($scope, $http){
         .then(function(res){
             $scope.teams = res.data; 
         });
-   $scope.fansVsMascots = function(){
-       return team.vs ? 'win' : 'lose';
-   };
+
+   $scope.currentCount = 1;
+
+   $scope.clickUp = function($event){
+       $scope.currentCount > 31 ? $scope.currentCount = 1 : $scope.currentCount += 1;
+   } 
+   
+   $scope.clickDown = function($event){
+       $scope.currentCount <= 1 ? $scope.currentCount = 32 : $scope.currentCount -= 1;
+   }
+
 });
 
 moreFansApp.controller('FooterController', function FooterController($scope){

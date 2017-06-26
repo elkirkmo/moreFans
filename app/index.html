@@ -6,19 +6,23 @@
         <link rel="stylesheet" href='styles.css' />
     </head>
     <body ng-controller='MainController' >
-        <div class='main' ng-repeat='team in teams' ng-class="team.className">
+        <div class='main' ng-repeat='team in teams track by $index' ng-class="team.className" ng-show="+team.id === currentCount">
             <h1>{{team.name}}</h1>
-            <div class='team'></div>
-            <div ng-class='{{fansVsMascot()}}'></div>
+            <div ng-class="team.className" class='team'></div>
+            <div ng-class='{win: team.vs, lose: !team.vs}'></div>
             <div class='mascot'></div>
         
         <div class='breakdown'>
           <p>There are {{team.mascotFacts.number}} {{team.mascot.toLowerCase()}} in the world compared to {{team.fanCount}} {{team.mascot}} fans.</p>
         </div>
+          <div class='prev'>
+            <button ng-click="clickDown($event)">Prev team</button>
         </div>
-        <div class='next'>
-            <a>Next team</a>
+                <div class='next'>
+            <button ng-click="clickUp($event)">Next team</button>
         </div>
+        </div>
+
         <footer ng-controller="FooterController">Made by <a ng-href="{{links.twitter}}">@elkirkmo</a> | <a ng-href="{{links.contribute}}">Contribute on Github</a> | Based on this <a ng-href="{{links.origin}}">reddit post</a> by <a ng-href="{{links.originUser}}">u/TwentyThreeEightOne</a></footer>
         <script src="scripts/angular/angular.js"></script>
         <script src="app.js"></script>
