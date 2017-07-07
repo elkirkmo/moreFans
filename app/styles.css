@@ -10,131 +10,131 @@ footer {
   position: relative;
   bottom: 0;
 }
-.chi {
-  background-color: navy;
-  color: orange;
+#nfl .chi {
+  background-color: #0B162A;
+  color: #C83803;
 }
-.min {
-  background-color: purple;
-  color: yellow;
+#nfl .min {
+  background-color: #4F2683;
+  color: #FFC62F;
 }
-.det {
-  background-color: skyblue;
-  color: gray;
+#nfl .det {
+  background-color: #0076B6;
+  color: #B0B7BC;
 }
-.gb {
-  background-color: green;
-  color: goldenrod;
+#nfl .gb {
+  background-color: #203731;
+  color: #FFB612;
 }
-.dal {
-  background-color: navy;
-  color: silver;
+#nfl .dal {
+  background-color: #002244;
+  color: #B0B7BC;
 }
-.phi {
-  background-color: forestgreen;
-  color: white;
-}
-.nyg {
-  background-color: blue;
+#nfl .phi {
+  background-color: #004C54;
   color: #ffffff;
 }
-.was {
-  background-color: maroon;
-  color: goldenrod;
+#nfl .nyg {
+  background-color: #0B2265;
+  color: #A71930;
 }
-.tb {
-  background-color: crimson;
-  color: darkgray;
+#nfl .was {
+  background-color: #5A1414;
+  color: #FFB612;
 }
-.atl {
-  background-color: black;
-  color: red;
+#nfl .tb {
+  background-color: #D50A0A;
+  color: #34302B;
 }
-.car {
-  background-color: teal;
-  color: black;
+#nfl .atl {
+  background-color: #A71930;
+  color: #000000;
 }
-.nola {
-  background-color: black;
-  color: gold;
+#nfl .car {
+  background-color: #0085CA;
+  color: #000000;
 }
-.sf {
-  background-color: red;
-  color: gold;
+#nfl .nola {
+  background-color: #000000;
+  color: #D3BC8D;
 }
-.az {
-  background-color: red;
+#nfl .sf {
+  background-color: #AA0000;
+  color: #B3995D;
+}
+#nfl .az {
+  background-color: #97233F;
   color: #ffffff;
 }
-.lar {
-  background-color: navy;
-  color: goldenrod;
+#nfl .lar {
+  background-color: #002244;
+  color: #B3995D;
 }
-.sea {
-  background-color: forestgreen;
-  color: lightblue;
+#nfl .sea {
+  background-color: #69BE28;
+  color: #002244;
 }
-.cin {
-  background-color: orange;
-  color: black;
+#nfl .cin {
+  background-color: #FB4F14;
+  color: #000000;
 }
-.cle {
-  background-color: orange;
-  color: brown;
+#nfl .cle {
+  background-color: #FF3C00;
+  color: #311D00;
 }
-.bal {
-  background-color: purple;
-  color: black;
+#nfl .bal {
+  background-color: #241773;
+  color: #9E7C0C;
 }
-.pit {
-  background-color: yellow;
-  color: black;
+#nfl .pit {
+  background-color: #FFB612;
+  color: #000000;
 }
-.buf {
-  background-color: red;
-  color: blue;
+#nfl .buf {
+  background-color: #C60C30;
+  color: #00338D;
 }
-.mia {
-  background-color: aqua;
-  color: orange;
+#nfl .mia {
+  background-color: #008E97;
+  color: #F58220;
 }
-.nyj {
-  background-color: green;
+#nfl .nyj {
+  background-color: #203731;
   color: #ffffff;
 }
-.ne {
-  background-color: navy;
-  color: red;
+#nfl .ne {
+  background-color: #002244;
+  color: #C60C30;
 }
-.ind {
-  background-color: blue;
+#nfl .ind {
+  background-color: #002C5F;
   color: #ffffff;
 }
-.jax {
-  background-color: teal;
-  color: gold;
+#nfl .jax {
+  background-color: #006778;
+  color: #9F792C;
 }
-.hou {
-  background-color: red;
-  color: navy;
+#nfl .hou {
+  background-color: #A71930;
+  color: #03202F;
 }
-.ten {
-  background-color: lightblue;
-  color: navy;
+#nfl .ten {
+  background-color: #4B92DB;
+  color: #002244;
 }
-.den {
-  background-color: navy;
-  color: orange;
+#nfl .den {
+  background-color: #002244;
+  color: #FB4F14;
 }
-.lac {
-  background-color: lightblue;
-  color: gold;
+#nfl .lac {
+  background-color: #0073CF;
+  color: #FFB612;
 }
-.kc {
-  background-color: red;
-  color: yellow;
+#nfl .kc {
+  background-color: #E31837;
+  color: #FFB612;
 }
-.oak {
+#nfl .oak {
   background-color: #000000;
   color: #A5ACAF;
 }
