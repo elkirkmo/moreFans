@@ -5,7 +5,7 @@
         </title>
         <link rel="stylesheet" href='styles.css' />
     </head>
-    <body ng-controller='MainController' >
+    <body ng-controller='MainController' id="nfl">
         <div class='main' ng-repeat='team in teams track by $index' ng-class="team.className" ng-show="+team.id === currentCount">
             <h1>{{team.name}}</h1>
             <div ng-class="team.className" class='team'></div>
