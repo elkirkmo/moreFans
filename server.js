@@ -4,10 +4,11 @@ var app = express();
 var bp = require('body-parser');
 var mg = require('mongoose');
 
+app.set('port', (process.env.PORT || 5000));
 app.use(express.static(__dirname + '/app'))
 app.use('/scripts', express.static(__dirname + '/node_modules'))
 app.use('/data', express.static(__dirname + '/data'))
 
-var server = app.listen(5000, function(){
-  console.log('listening on port 5000')
+var server = app.listen(app.get('port'), function(){
+  console.log('listening on port ', app.get('port'))
 });
