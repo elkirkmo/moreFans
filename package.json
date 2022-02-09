@@ -26,7 +26,7 @@
     "require-cs": "^0.5.4",
     "requirejs": "^2.3.3",
     "requirejs-text": "^2.0.15",
-    "yarn": "^0.24.5"
+    "yarn": "^1.22.0"
   },
   "dependencies": {
     "angular": "^1.6.4",
